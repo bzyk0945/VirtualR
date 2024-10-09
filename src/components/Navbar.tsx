@@ -15,6 +15,7 @@ export const Navbar: React.FC = () => {
   const handleScrollToTop = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.location.hash = ''
   };
 
 
