@@ -2,6 +2,7 @@ import { Workflow } from "./components/Workflow";
 import { Feature } from "./components/Feature";
 import { HeroSection } from "./components/HeroSection";
 import { Navbar } from "./components/Navbar";
+import { Pircing } from "./components/Pircing";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
         <Feature />
         <Workflow />
+        <Pircing />
       </main>
     </>
   );
