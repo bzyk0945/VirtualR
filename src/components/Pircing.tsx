@@ -5,7 +5,7 @@ import { pricingOptions } from "../constants/index";
 
 export const Pircing: React.FC = () => {
   return (
-    <section className="mt-20">
+    <section id="pircing" className="mt-20">
       <h2 className="text-center lg:text-6xl my-8 tracking-wide">Pircing</h2>
       <div className="flex flex-wrap">
         {pricingOptions.map((item, index) => (

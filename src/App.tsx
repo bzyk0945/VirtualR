@@ -3,7 +3,8 @@ import { Feature } from "./components/Feature";
 import { HeroSection } from "./components/HeroSection";
 import { Navbar } from "./components/Navbar";
 import { Pircing } from "./components/Pircing";
-
+import { Testimontials } from "./components/Testimontials";
+import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
@@ -13,6 +14,8 @@ function App() {
         <Feature />
         <Workflow />
         <Pircing />
+        <Testimontials />
+        <Footer />
       </main>
     </>
   );

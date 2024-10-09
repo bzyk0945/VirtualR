@@ -4,7 +4,7 @@ import codeImg from "../assets/code.jpg";
 import { CheckCircle } from "lucide-react";
 export const Workflow: React.FC = () => {
   return (
-    <section className="mt-20">
+    <section id="workflow" className="mt-20">
       <h2 className="text-center text-3xl sm:text-5xl lg:text-6xl">
         Accelerate your{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
